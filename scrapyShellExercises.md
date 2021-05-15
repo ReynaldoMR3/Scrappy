@@ -78,5 +78,18 @@ Getting all the countries
      ...
     ]
 
+## Steps for creating projects and spiders
+
+Start project:
+
+    scrappy startproject <project_name>
+
+Generate spider
+
+    scrappy genspider <name> <url>
+
+Generate spider with crawler template
+
+    scrappy genspider -t crawl <name> <url>
 
 
